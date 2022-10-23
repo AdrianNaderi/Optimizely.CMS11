@@ -4,4 +4,13 @@
     {
         
     }
+
+    public class BlockViewModel<T> : BlockViewModel
+    {
+        public T CurrentBlock { get; set; }
+        public BlockViewModel(T block)
+        {
+            CurrentBlock = block;
+        }
+    }
 }
