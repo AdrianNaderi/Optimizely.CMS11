@@ -249,6 +249,7 @@
     <Folder Include="Models\Blocks\" />
     <Folder Include="Models\Media\" />
     <Folder Include="Models\Properties\" />
+    <Folder Include="wwwroot" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Static\css\main.css" />
