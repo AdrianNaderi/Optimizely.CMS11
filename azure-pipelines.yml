@@ -50,7 +50,7 @@ steps:
     azureSubscription: 'rg-optimizely'
     appType: 'webApp'
     WebAppName: 'app-optimizely11'
-    packageForLinux: '$(Pipeline.Workspace)/**/*.zip'
+    packageForLinux: '$(Pipeline.Workspace)/**/**/WebApp.zip'
 
 # - task: VSTest@2
 #   inputs:
