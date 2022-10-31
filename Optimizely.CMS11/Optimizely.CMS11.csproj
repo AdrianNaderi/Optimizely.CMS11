@@ -304,7 +304,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" />
+<!--  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" />-->
   <Target Name="BeforeBuild">
     <TransformXml source="Web.config" Transform="Web.$(Configuration).config" Destination="Web.config" />
   </Target>
